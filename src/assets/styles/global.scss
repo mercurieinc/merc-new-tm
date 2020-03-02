@@ -1,0 +1,36 @@
+@import "../../../node_modules/bulma/bulma.sass";
+
+.ant-steps-item-icon {
+    background: #fbb040!important;
+}
+.ant-steps-item-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+}
+.ant-form label {
+    font-size: 16px;
+    color: #fff;
+}
+.custom {
+    color: #fbb040;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Muli:400,500,600,700&display=swap');
+$primary-font: 'Futura PT Demi'; 
+$secondary-font: 'Muli', sans-serif;
+
+body {
+    font-family: $primary-font;
+    line-height: normal;
+    color: $text;
+
+    h1, h1, h3, h4, h5, h6 {
+        font-family: $primary-font;
+        font-weight: 600;
+    }
+
+    p {
+        font-family: $secondary-font;
+    }
+}
